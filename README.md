@@ -1,7 +1,35 @@
-# Docker images
+# Web docker images
 
-Automated build images:
-- base image for web projects based in php:7.1.10-apache
-- base image for web projects based in php:5.6.30-apache
-- base image for js projects
-- image for CI/CD
+Image based in php:7.1.10-apache and 
+included:
+- **php extension:**
+    - gd
+    - gettex
+    - gmp
+    - hash
+    - iconv
+    - imap
+    - intl
+    - ldap
+    - mbstring
+    - mcrypt
+    - mysqli
+    - pcntl
+    - pdo
+    - pdo_mysql
+    - pspell
+    - shmop
+    - sockets
+    - sysvmsg
+    - sysvsem
+    - sysvshm
+    - wddx
+    - xml
+    - xsl
+    - zip
+- **utils:**
+    - nano
+    - git
+    - mysql-client
+    - wget
+    - composer
