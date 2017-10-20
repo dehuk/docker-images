@@ -1,6 +1,6 @@
 # Web docker images
 
-Image based in php:7.1.10-apache and 
+Image based in php:5.6.30-apache and 
 included:
 - **php extension:**
     - gd

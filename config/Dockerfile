@@ -1,4 +1,4 @@
-FROM php:7.1.10-apache
+FROM php:5.6.30-apache
 
 # PHP Core Extensions
 RUN apt-get update && apt-get install -y \
